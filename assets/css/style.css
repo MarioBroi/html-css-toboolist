@@ -1,0 +1,30 @@
+/*  */
+:root{
+    --bool-lightblue: rgba(71, 173, 241, 1);
+    --bool-purple: rgba(156, 114, 228, 1);
+    --bool-pink: rgba(216, 99, 160, 1);
+    --bool-lightgreen: rgba(176, 201, 38, 1);
+    --bool-green: rgba(100, 192, 169, 1);
+    --bool-orange: rgba(242, 158, 51, 1);
+    --bool-darkblue: rgba(4, 25, 49, 1);
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    background-color: rgba(246, 248, 249, 0.5);
+}
+
+header{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+#title{
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 3rem;
+}
