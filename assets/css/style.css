@@ -1,5 +1,11 @@
-/*  */
-:root{
+/* common */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
     --bool-lightblue: rgba(71, 173, 241, 1);
     --bool-purple: rgba(156, 114, 228, 1);
     --bool-pink: rgba(216, 99, 160, 1);
@@ -9,56 +15,58 @@
     --bool-darkblue: rgba(4, 25, 49, 1);
 }
 
-body{
+body {
     margin: 0;
 }
+/* /common */
 
-header{
+header {
     height: 5rem;
     padding: 1rem 2rem;
     margin-bottom: 6rem;
     background-color: white;
 }
 
-#title{
+#title {
     font-family: sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 2.5rem;
     vertical-align: middle;
 }
 
-#logo{
+#logo {
     vertical-align: middle;
     padding-left: 1.5rem;
 }
+/* /header */
 
-.main_bg{
-    background-color:lightgrey;
+main {
+    width: 50%;
+    margin: 1rem auto;
+    background-color: white;
+    border-radius: 05rem;
 }
 
-.container{
-    margin: 0 auto;
-    background-color: white;
-    width: 70%;
+.container {
+    border-bottom: 2px solid lightgrey;
+    padding: 0.7rem 3rem 0.7rem;
+}
+
+.btn {
+    padding: 0.4rem 0.7rem;
+    background-color: transparent;
     border-radius: 0.3rem;
+    font-size: 0.7rem;
+    border: none;
 }
 
-button{
-    padding: 1rem 1.5rem;
-    color: white;
+.btn_task {
     background-color: var(--bool-lightblue);
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    margin: 1rem 1rem 1rem 1rem;
-    vertical-align: middle;
+    color: white;
 }
 
-#section{
-    color: lightslategray;
+.btn_section {
     background-color: white;
-    border: 1px solid grey;
-    border-radius: 0.5rem;
-    font-size: 44px;
-    margin: 1rem 1rem 1rem 1rem;
-    vertical-align: middle;
+    border: 1px solid lightgrey;
+    color: lightgrey;
 }
