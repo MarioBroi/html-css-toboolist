@@ -13,11 +13,13 @@
     --bool-green: rgba(100, 192, 169, 1);
     --bool-orange: rgba(242, 158, 51, 1);
     --bool-darkblue: rgba(4, 25, 49, 1);
+    --bool-pattern: rgba(226, 225, 225, 0.699);
 }
 
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: var(--bool-pattern)
 }
 
 li {
@@ -28,8 +30,14 @@ ul {
     list-style-type: none;
 }
 
+hr{
+    margin: 0 -2rem;
+    margin-bottom: 1rem;
+}
+
 /* /common */
 
+/* header */
 header {
     height: 5rem;
     padding: 1rem 2rem;
@@ -50,23 +58,24 @@ header {
 
 /* /header */
 
+/* main */
 main {
     width: 50%;
-    margin: 1rem auto;
+    margin: 0.5rem auto;
     background-color: white;
-    border-radius: 05rem;
+    border-radius: 0.2rem;
+    padding: 1rem 2rem;
 }
 
 .container {
-    border-bottom: 2px solid lightgrey;
-    padding: 0.7rem 3rem 0.7rem;
+    padding: 0.7rem 0rem 0.7rem;
 }
 
 .btn {
     padding: 0.4rem 0.7rem;
     background-color: transparent;
     border-radius: 0.3rem;
-    font-size: 0.7rem;
+    font-size: 1;
     border: none;
 }
 
@@ -118,6 +127,7 @@ main {
     font-size: 0.5rem;
 }
 
+/* Stickers backgrounds */
 .edit_bg {
     background-color: var(--bool-lightblue);
 }
@@ -141,3 +151,6 @@ main {
 .sal_bg {
     background-color: var(--bool-lightgreen);
 }
+
+/* /Stickers backgrounds */
+/* /main section*/
