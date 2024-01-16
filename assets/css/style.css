@@ -15,8 +15,9 @@ body{
 
 header{
     height: 5rem;
-    padding-top: 1rem;
-    margin-bottom: 3rem;
+    padding: 1rem 2rem;
+    margin-bottom: 6rem;
+    background-color: white;
 }
 
 #title{
@@ -31,6 +32,33 @@ header{
     padding-left: 1.5rem;
 }
 
-main{
-    background-color: rgba(246, 248, 249, 0.5);
+.main_bg{
+    background-color:lightgrey;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: white;
+    width: 70%;
+    border-radius: 0.3rem;
+}
+
+button{
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: var(--bool-lightblue);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    vertical-align: middle;
+}
+
+#section{
+    color: lightslategray;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 0.5rem;
+    font-size: 44px;
+    margin: 1rem 1rem 1rem 1rem;
+    vertical-align: middle;
 }
